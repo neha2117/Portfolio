@@ -1,0 +1,426 @@
+<html>
+<head>
+  <title>Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link href="css-circular-prog-bar.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+
+
+<style>
+body{
+	font: 400 15px Lato, sans-serif; 
+      line-height: 1.8;
+}
+.right{
+      font-size:20px;
+      padding-top: 10px;
+    }
+.navbar,.navbar-header{
+					color:#fff !important; 
+                    padding-top:5px;
+                    margin-bottom:15px; 
+                    background-color: crimson;
+    }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+ .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+.h1 {
+  background-color:black;
+}
+.btnn{
+	padding: 10px;
+	color:white;
+	text-align: center;
+	background-color: green;
+}
+.fa {
+  padding: 12px;
+  font-size: 25px;
+  text-align: left;
+  text-decoration: none;
+  margin: 2px 2px;
+ border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+	background: #ff6600;
+    color: white;
+}
+.bg{
+	padding: 80px 120px;
+	color:black;
+	background-color: #e0ebeb;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+
+.bg-ho{
+	 /*opacity: 0.5;
+    filter: alpha(opacity=50);  For IE8 and earlier */
+	padding: 80px 120px;
+	color:white;
+	background-color:#000033;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+
+}
+.bg-h{
+	padding: 80px 120px;
+	color:#0000FF;
+	background-color: #ebf0fa;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	font: 400 15px Lato, sans-serif;
+}
+ .bg-2 { 
+      /*background-color:#f2f2f2;*/
+      background: linear-gradient(to top left, #ff0066 40%, #ffffcc 69%);
+      padding:70px;
+      padding-top: 10px; 
+      margin-top:0px;
+      font:20px Montserrat, sans-serif;
+      color:white;
+}
+
+.bg-f{
+	padding:30px;
+	color:white;
+	background-color: black;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+
+.progress-bar{
+  background-color:black;
+}
+.bg-hobbies{
+     background-color: #eff5f5;
+     padding: 60px 50px;
+    
+      margin-top:0px;
+      font:20px Montserrat, sans-serif; 
+}
+
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btnn {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    . {
+        font-size: 150px;
+    }
+  }
+  
+  .navbar-right li a, .navbar-right .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-right li a:hover, .navbar-right li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+ 
+</style>
+
+
+</head>
+<body>
+<div class="row">
+<nav class="navbar navbar-inverse navbar-fixed-top col-md-12">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#Home" style="font-size: 40px">Resume</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right right">
+      <li><a class="right" href="#Home">Home</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Hobbies">Hobbies</a></li>
+     <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div id="Home" class="container-fluid bg-ho" style="margin-top: 40px"><br><br>
+  <div class="row "> 
+      <div class="col-sm-4 slideanim" style="position:relative margin:40px"><br>
+        <img src="img/neha.jpg" class="img-responsive img-rounded">
+      </div>
+      <br>
+      <div class="col-sm-8" style="position:absolute margin-left:20px">
+  <center><ul>
+        <h1>Neha Karmakar</h1>
+   		<h2>(DEVELOPER/ CODER/ DESIGNER)</h2>
+        <h3><strong>Address :</strong>L-77,Bappa Rawal Nagar, Hiran Magri, Sector-6, Udaipur(Raj.)<br>
+        <h3><strong>DOB :</strong>17th Nov. 1995<br><br></h3>      
+		
+	    <div class="btn">
+	      <a href="https://www.facebook.com/neha.karmakar.940" class="fa fa-facebook"></a>
+	      <a href="https://www.linkedin.com/in/neha-karmakar-13949b121/" class="fa fa-linkedin"></a>
+	      <a href="https://github.com/neha2117" class="fa fa-github"></a>
+	    </div>
+	     </ul>
+	     <div class="btn">
+	      <a href="https://drive.google.com/open?id=0B1-mBjxmTCkfbXJGcWROTTVoVFU"><button type="button" class="btn btnn btn-md" style="color: white font-size:20px"><b>Download Resume</button></a></b>
+	     </div>
+	   </div>
+	   </h3>
+</div>
+</div>
+
+<div class="container-fluid bg text-center slideanim">
+    <p><h3 class="slideanim">I am currently pursuing B. Tech in Computer Science Engineering from Techno India NJR institute of Technology, Udaipur. I am currently in the final year of my UG course. My interests are computer programming and web development. I have consistent academic credentials, adaptive to different challenging situations and interested in learning new technologies.</p>
+ </div>
+
+<div class="container-fluid bg-2 slideanim" id="Skills"><br><br>
+    <b><center><h1 style="color:black"><br>SKILLS<h1></b>
+      <!--Web Development -->  
+    <div class="row container text-center slideanim">
+      <h2 style="color:crimson">Web Development<hr></h2><br>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">80% <strong> HTML</strong>
+        </div>
+      </div>
+  
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">80% <strong> CSS</strong>
+        </div>
+      </div>
+    
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">85% <strong> Boostrap</strong>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">70% <strong> Javascript</strong>
+        </div>
+      </div>
+  
+    </div> <!--Programming Languages -->
+
+     <div class="row container slideanim">
+      <h2 style="color: crimson">Programming Languages</h2><hr><br>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">80% <strong> C</strong>
+        </div>
+      </div>
+  
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">80% <strong> C++</strong>
+        </div>
+      </div>
+    
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">85% <strong> PHP</strong>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">70% <strong> Python</strong>
+        </div>
+      </div>
+  
+    </center> <!--center tag started at the begining-->  
+    </div> <!--End of row container -->
+</div><!--End ofcontainer container-fluid Skills-->  
+
+
+
+
+<!--------------education---------------->
+<div id="Education" class="container-fluid text-center slideanim"><br><br><br>
+		<b><h1>EDUCATION</h1></b>
+	<div class="row">
+		<div class="col-sm-12 slideanim">
+			<h2>Bachelor Degree – B.tech</h2>
+			<span class="label label-danger">Aug 2014 - Present</span>
+	      	<h3><p>I am currently pursuing B. Tech in Computer Science Engineering from Techno India NJR Institute of Technology, Udaipur.I am currently in the final year of my UG course from Rajasthan Technical University(RTU).</p></h3>
+     	</div>
+     	<div class="col-sm-12 slideanim">
+     		<h2>Senior Secondary</h2>
+     		<span class="label label-danger">Apr 2013 - May 2014</span>
+     		<h3><p>I did my Sr.Secondary from Guru Nanak Public Sr. Sec. School, Udaipur (Raj.) RBSE board in the year 2014</p></h3>
+     	</div>
+     	<div class="col-sm-12 slideanim">
+     		<h2>Secondary</h2>
+     		<span class="label label-danger">Apr 2011 - May 2012</span>
+     		<h3><p>I did my Secondary from Guru Nanak Public Sr. Sec. School, Udaipur (Raj.) RBSE board in the year 2012</p></h3>
+     	</div>
+	</div>
+</div>
+
+
+
+
+<!--------------Hobbies-------------->
+<div id="Hobbies" class="container-fluid text-center bg-hobbies" ><br>
+  <h1 class="margin"><b>HOBBIES</h1>
+  <div class="row slideanim">
+    <div class="col-sm-3 text-center ">
+      <h3>1. Learning New Technolgies</h3>
+    </div> 
+
+     <div class="col-sm-3 text-center">
+      <h3>2. Dancing</h3>
+    </div> 
+ 
+     <div class="col-sm-3 text-center">
+      <h3>3. Singing</h3>
+    </div> 
+
+     <div class="col-sm-3 text-center">
+      <h3>4. Sketching</h3>
+    </div> 
+ </div>
+</div>
+
+
+<!-------------------Contact-------------->
+<div id="Contact" class="container-fluid text-center bg-ho slideanim">
+  <h1>CONTACT</h1>
+  <div class="row" style="margin-top: 60px">
+    <div class="col-sm-7" style="font-size:20px">
+    <ul>
+    <span class="glyphicon glyphicon-home"></span><br> L-77,Bappa Rawal Nagar, Hiran Magri,Sector-6, Udaipur(Raj.)<br><br><br>
+    <span class="glyphicon glyphicon-phone"></span><br>  +91 8440020881<br>
+    
+    </div></ul>
+
+    <div class="col-sm-5 container">
+    	<div class="map-responsive">
+      		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.8828891748203!2d73.72044101458!3d24.558708784197073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967ef698bf19ea3%3A0x36b6901c4391d886!2sSatellite+Hospital+Rd%2C+Sector+6%2C+Udaipur%2C+Rajasthan+313001%2C+India!5e0!3m2!1sen!2s!4v1507749130282" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div> 
+  </div>
+</div>
+
+<!---------footer------------>
+<footer class="container-fluid text-center bg-f slideanim">
+  <a href="#Home" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span><br>
+    <span class="glyphicon glyphicon-envelope"></span> nehakarmakar1721@gmail.com 
+  </a>
+</footer>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+
+
+
+
+
+</body>
+</html>

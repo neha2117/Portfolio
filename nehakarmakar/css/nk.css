@@ -1,0 +1,12 @@
+
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+}
+
+.profile-image,.img-responsive {
+	position : absolute;
+	height : auto;
+	padding: 10px;
+	margin:0px;
+	
+}
